@@ -20,8 +20,12 @@ sensor:
 
 ## Credits
 
-This project uses MechanicalSoup to scrap
+ - This project uses
+   [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape
+   the Mauritius Telecom portal.
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA1NDE3MzIsLTE1NzA2Njk4MDksLT
-c4NTU0NjY1MSw2NDE4MDEzNjVdfQ==
+eyJoaXN0b3J5IjpbOTk2NTMyNjgwLC0xNTcwNjY5ODA5LC03OD
+U1NDY2NTEsNjQxODAxMzY1XX0=
 -->
