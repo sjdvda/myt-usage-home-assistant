@@ -16,9 +16,9 @@ sensor:
 
 `username` and `password`: Use the same credentials that you use to log in to [internetaccount.myt.mu](https://internetaccount.myt.mu). If you don't know your username or password, contact the Mauritius Telecom Hotline.
 
-`scan_interval`: This value is in seconds and will determine how often the script will check the my.t portal for the remaining data. I don't know if Mauritius Telecom has any limit I've found that a value 7200
+`scan_interval`: This value is in seconds and will determine how often the script will check the my.t portal for the remaining data. I don't know if Mauritius Telecom has any limit to the number of times you can log in to the portal but I've found that a value of 7200 (2 hours) is good enough. I would not set it below 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTg1NTk1MiwtMTU3MDY2OTgwOSwtNz
-g1NTQ2NjUxLDY0MTgwMTM2NV19
+eyJoaXN0b3J5IjpbLTEyNTkxMjgwNzQsLTE1NzA2Njk4MDksLT
+c4NTU0NjY1MSw2NDE4MDEzNjVdfQ==
 -->
