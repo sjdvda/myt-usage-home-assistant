@@ -16,9 +16,9 @@ sensor:
 
 `username` and `password`: Use the same credentials that you use to log in to [internetaccount.myt.mu](https://internetaccount.myt.mu). If you don't know your username or password, contact the Mauritius Telecom Hotline.
 
-`scan_interval`: This will d
+`scan_interval`: This value is in seconds and will determine how often the script will check the my.t portal for the remaining data. I don't know if Mauritius Telecom has any limit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MDIyMywtNzg1NTQ2NjUxLDY0MTgwMT
-M2NV19
+eyJoaXN0b3J5IjpbLTE1NzA2Njk4MDksLTc4NTU0NjY1MSw2ND
+E4MDEzNjVdfQ==
 -->
