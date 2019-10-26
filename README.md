@@ -3,7 +3,7 @@
 Custom Home Assistant component to get remaining monthly data from the my.t (Mauritius Telecom) portal.
 
 ## Setup
-Copy/extract the entire "myt_usage" folder to your custom_components Home Assistant configuration folder
+Copythe entire "myt_usage" folder to your custom_components Home Assistant configuration folder
 
 Add the following to your configuration.yaml:
 ```yaml
@@ -16,5 +16,5 @@ sensor:
 
 Use the same credentials that you use to log in to [internetaccount.myt.mu](https://internetaccount.myt.mu). If you don't know your username or password, contact the Mauritius Telecom Hotline.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ5MTEzMDNdfQ==
+eyJoaXN0b3J5IjpbNjQxODAxMzY1XX0=
 -->
