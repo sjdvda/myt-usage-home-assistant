@@ -14,9 +14,11 @@ sensor:
     scan_interval: 7200
 ```
 
-`username' Use the same credentials that you use to log in to [internetaccount.myt.mu](https://internetaccount.myt.mu). If you don't know your username or password, contact the Mauritius Telecom Hotline.
+`username` and `password`: Use the same credentials that you use to log in to [internetaccount.myt.mu](https://internetaccount.myt.mu). If you don't know your username or password, contact the Mauritius Telecom Hotline.
 
+`scan_interval`: This will d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTU0NjY1MSw2NDE4MDEzNjVdfQ==
+eyJoaXN0b3J5IjpbMTA2MDIyMywtNzg1NTQ2NjUxLDY0MTgwMT
+M2NV19
 -->
