@@ -19,8 +19,11 @@ sensor:
 `scan_interval`: This value is in seconds and will determine how often the script will check the my.t portal for the remaining data. I don't know if Mauritius Telecom has any limit to the number of times you can log in to the portal but I've found that a value of 7200 (2 hours) is good enough for me. I would not recommend setting it below 1800 (30 minutes) as I don't believe the portal is updated *that* often.
 
 ## How To Use
-Once you have installed the custom component, added your credentials to your configuration.yaml, and restarted Home Assistant, you should not have a 
+Once you have installed the custom component, added your credentials to your configuration.yaml, and restarted Home Assistant, you should have new sensor called "my.t Remaining Data" (`sensor.myt_usage`).
 
+You can then use any card to display the value in the Lovelace frontend.
+
+I recommend the built-in S
 
 ## Credits
 
@@ -30,6 +33,6 @@ Once you have installed the custom component, added your credentials to your con
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjkxODE2MSwtNzU1NTg4NjM3LC0xNT
+eyJoaXN0b3J5IjpbLTIzNjczNzc2MSwtNzU1NTg4NjM3LC0xNT
 cwNjY5ODA5LC03ODU1NDY2NTEsNjQxODAxMzY1XX0=
 -->
