@@ -1,0 +1,10 @@
+{
+  "domain": "myt_usage",
+  "name": "myt Usage Checker",
+  "documentation": ["https://github.com/sjdvda/myt-usage-home-assistant/blob/master/README.md"],
+  "dependencies": [],
+  "codeowners": [
+    "@sjdvda"
+  ],
+  "requirements": ["MechanicalSoup","lxml"]
+}
