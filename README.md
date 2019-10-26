@@ -21,10 +21,14 @@ sensor:
 ## How To Use
 Once you have installed the custom component, added your credentials to your configuration.yaml, and restarted Home Assistant, you should have new sensor called "my.t Remaining Data" (`sensor.myt_usage`).
 
-You can then use any card to display the value in the Lovelace frontend.
+You can then use any card to display the value in the Lovelace frontend:
 
-I recommend the built-in Sensor card:
+I recommend the built-in **Sensor** card:
 ![image](https://user-images.githubusercontent.com/2962486/67623635-ba5c9f00-f838-11e9-94d4-0bbefc0adce7.png)
+
+Or the awesome **[mini-graph-card](https://github.com/kalkih/mini-graph-card)**:
+
+
 
 ## Credits
 
@@ -34,6 +38,6 @@ I recommend the built-in Sensor card:
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTg1MDg4NSwtNzU1NTg4NjM3LC0xNT
+eyJoaXN0b3J5IjpbMjA1ODA2ODc0NiwtNzU1NTg4NjM3LC0xNT
 cwNjY5ODA5LC03ODU1NDY2NTEsNjQxODAxMzY1XX0=
 -->
