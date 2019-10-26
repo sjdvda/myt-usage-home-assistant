@@ -23,7 +23,8 @@ Once you have installed the custom component, added your credentials to your con
 
 You can then use any card to display the value in the Lovelace frontend.
 
-I recommend the built-in S
+I recommend the built-in Sensor card:
+
 
 ## Credits
 
@@ -33,6 +34,6 @@ I recommend the built-in S
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjczNzc2MSwtNzU1NTg4NjM3LC0xNT
-cwNjY5ODA5LC03ODU1NDY2NTEsNjQxODAxMzY1XX0=
+eyJoaXN0b3J5IjpbMTU5NTY0NDE0LC03NTU1ODg2MzcsLTE1Nz
+A2Njk4MDksLTc4NTU0NjY1MSw2NDE4MDEzNjVdfQ==
 -->
