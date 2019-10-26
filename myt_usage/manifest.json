@@ -1,6 +1,6 @@
 {
   "domain": "myt_usage",
-  "name": "myt Usage Checker",
+  "name": "my.t Usage Checker",
   "documentation": ["https://github.com/sjdvda/myt-usage-home-assistant/blob/master/README.md"],
   "dependencies": [],
   "codeowners": [

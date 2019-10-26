@@ -29,7 +29,7 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 def setup_platform(hass, config, add_devices, discovery_info=None):
     _LOGGER.debug("Setup platform myt usage")
     """Setup the myt usage scraper platform."""
-    add_devices([MytSensor("myt Usage", config)], True)
+    add_devices([MytSensor("my.t Remaining Data", config)], True)
 
 class MytSensor(Entity):
     """Representation of the myt Scraper."""
