@@ -12,9 +12,9 @@ from homeassistant.helpers.entity import Entity
 
 import mechanicalsoup
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
-REQUIREMENTS = ['lxml','MechanicalSoup']
+REQUIREMENTS = ['lxml','MechanicalSoup','beautifulsoup4']
 
 REMAINING_DATA = 'remaining_data'
 
