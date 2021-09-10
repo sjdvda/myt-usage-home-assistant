@@ -1,12 +1,12 @@
 {
   "domain": "myt_usage",
   "name": "myt Usage Checker",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "documentation": ["https://github.com/sjdvda/myt-usage-home-assistant/blob/master/README.md"],
   "dependencies": [],
   "codeowners": [
     "@sjdvda"
   ],
   "issue_tracker": "https://github.com/sjdvda/myt-usage-home-assistant/issues",
-  "requirements": ["MechanicalSoup==0.12.0","beautifulsoup4","requests","lxml"]
+  "requirements": ["MechanicalSoup==1.1.0","beautifulsoup4","requests","lxml"]
 }

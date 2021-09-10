@@ -1,5 +1,7 @@
 # my.t Usage (Home Assistant)
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/sjdvda/myt-usage-home-assistant)
+
 Custom Home Assistant component based on the [my.t Usage Checker script](https://github.com/sjdvda/myt-usage-checker) to get remaining monthly data from the my.t (Mauritius Telecom) portal.
 
 ## Setup

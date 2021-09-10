@@ -12,7 +12,7 @@ from homeassistant.helpers.entity import Entity
 
 import mechanicalsoup
 
-__version__ = '0.1.1'
+__version__ = '0.1.3'
 
 REQUIREMENTS = ['lxml','MechanicalSoup','beautifulsoup4']
 
@@ -70,17 +70,16 @@ class MytSensor(Entity):
         _LOGGER.debug("Attempting Login")
 
         # Open my.t website
-        browser.open("http://internetaccount.myt.mu")
+        browser.open("https://internetaccount.myt.mu")
 
         # Enter credentials
-        form = browser.select_form('.loginarea')
+        login_form = browser.select_form('#id3')
         browser["signInForm.username"] = self._config.get(CONF_USERNAME)
         browser["signInForm.password"] = self._config.get(CONF_PASSWORD)
 
         # Sign in
-        form = browser.select_form()
-        form.choose_submit('signInContainer:submit')
-        resp = browser.submit_selected()
+        login_form.choose_submit('signInContainer:submit')
+        browser.submit_selected()
 
         # Load page
         page = browser.get_current_page()
@@ -90,18 +89,18 @@ class MytSensor(Entity):
 
         if login_verify:
             _LOGGER.debug("Login Successful")
+
             # Get values from page
             stats = (page.find_all("table")[5]).find_all("table")[1].find_all("td", bgcolor="#FFFFFF")
 
             _LOGGER.debug("Scraping Page")
             # Extract remaining data
-            remaining_data = stats[5]
+            remaining_allowance = stats[5]
 
-            # Regex black magic to extract the value
-            amt = float(re.findall(r'\d*\.?\d+', remaining_data.text)[0])
+            # Extract the value and convert to GB
+            gb_amount = float(re.findall(r'\d*\.?\d+', remaining_allowance.text)[0]) * float(0.001)
 
             # Conversion to GB
-            gb_amount = amt * float(0.001)
             if (gb_amount < 1):
                 remaining = gb_amount
             else:
@@ -113,4 +112,4 @@ class MytSensor(Entity):
         # If login fails, print error message from website
         else:
             error_message = page.select(".feedbackPanelERROR")[0]
-            _LOGGER.debug(error_message.text)
+            _LOGGER.error(error_message.text)
