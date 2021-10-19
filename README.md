@@ -2,7 +2,7 @@
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/sjdvda/myt-usage-home-assistant)
 
-Custom Home Assistant component based on the [my.t Usage Checker script](https://github.com/sjdvda/myt-usage-checker) to get remaining monthly data from the my.t (Mauritius Telecom) portal.
+Custom Home Assistant component based on the [my.t Usage Checker script](https://github.com/sjdvda/myt-usage-checker) to get remaining monthly data allowance from the my.t (Mauritius Telecom) portal.
 
 ## Setup
 Copy the entire "myt_usage" folder to your custom_components folder. If you have never installed any custom Home Assistant component, create a folder named "custom_components" in your Home Assistant configuration folder.
